@@ -1,6 +1,6 @@
-# 📚 Application E-Learning sécurisée avec Keycloak, React et Spring Boot
+## 📚 Application E-Learning sécurisée avec Keycloak, React et Spring Boot
 
-## 🧭 Vue globale du projet
+### 🧭 Vue globale du projet
 
 Ce projet consiste à développer une **application E-learning sécurisée** permettant de gérer
 l’authentification et l’autorisation des utilisateurs à l’aide de **Keycloak**, en respectant
@@ -16,7 +16,7 @@ l’application des responsabilités liées à la sécurité.
 
 ---
 
-## 🎯 Objectifs du projet
+### 🎯 Objectifs du projet
 
 Les objectifs principaux de ce projet sont :
 
@@ -31,7 +31,7 @@ Les objectifs principaux de ce projet sont :
 
 ---
 
-## 🗺️ Architecture générale du projet
+### 🗺️ Architecture générale du projet
 
 Le projet repose sur une architecture **Front-End / Back-End sécurisée par Keycloak** :
 
@@ -46,7 +46,7 @@ Le projet repose sur une architecture **Front-End / Back-End sécurisée par Key
 ---
 <img width="526" height="264" alt="image" src="https://github.com/user-attachments/assets/1a268935-27cd-4812-9ccb-28a84c4b3e7c" />
 
-## 🔁 Flux d’authentification
+### 🔁 Flux d’authentification
 
 - Redirection de l’utilisateur vers la page de login Keycloak
 - Authentification de l’utilisateur
@@ -58,9 +58,9 @@ Le projet repose sur une architecture **Front-End / Back-End sécurisée par Key
 
 ---
 
-## 🧩 Composants du projet
+### 🧩 Composants du projet
 
-### 🔑 Keycloak
+#### 🔑 Keycloak
 
 Keycloak est utilisé comme **serveur d’authentification et d’autorisation**.  
 Il permet de :
@@ -73,7 +73,7 @@ Il permet de :
 
 ---
 
-### ⚙️ Spring Boot (Back-End)
+#### ⚙️ Spring Boot (Back-End)
 
 Le Back-End est développé avec **Spring Boot** et permet de :
 
@@ -85,7 +85,7 @@ Le Back-End est développé avec **Spring Boot** et permet de :
 
 ---
 
-### 💻 React (Front-End)
+#### 💻 React (Front-End)
 
 Le Front-End est développé avec **React** et permet de :
 
@@ -98,7 +98,7 @@ Le Front-End est développé avec **React** et permet de :
 
 ---
 
-## 🚀 Technologies utilisées
+### 🚀 Technologies utilisées
 
 - **React** – Front-End
 - **Spring Boot** – Back-End
@@ -109,34 +109,40 @@ Le Front-End est développé avec **React** et permet de :
 ---
 📌 *Démonstration de l’application* :
 ---
-### ✅ Authentification via le compte user1 (Rôle : STUDENT)
+#### ✅ Authentification via le compte user1 (Rôle : STUDENT)
 1. login  :
 - L’utilisateur user1 se connecte avec ses identifiants : 
 <img width="1375" height="765" alt="image" src="https://github.com/user-attachments/assets/2621f40d-e765-4447-b075-398bab62f8bf" />
+<br>
 2. Consultation des cours : 
 - Après connexion, user1 peut consulter la liste des cours disponibles :
 <img width="1919" height="566" alt="image" src="https://github.com/user-attachments/assets/bfe76c9f-8f28-4034-af89-b49c14bb3cbf" />
+<br>
 3. Consultation du profil :
 - L’utilisateur peut également accéder à son profil pour vérifier ses informations personnelles et son rôle :
 <img width="867" height="655" alt="image" src="https://github.com/user-attachments/assets/d0848087-e2c5-4a7e-8cd7-8a496ed45c6d" />
 
-### ✅ Authentification via le compte admin1 (Rôle : ADMIN)
+#### ✅ Authentification via le compte admin1 (Rôle : ADMIN)
 1. login : 
 - L’administrateur admin1 se connecte avec ses identifiants :
 <img width="1189" height="774" alt="image" src="https://github.com/user-attachments/assets/758352b0-6a33-4029-bd65-20d43624cdd2" />
+<br>
 2. Consultation des cours :
 - L’administrateur peut consulter la liste complète des cours disponibles dans le système :
 <img width="1919" height="542" alt="image" src="https://github.com/user-attachments/assets/05b12d21-db2e-4a0d-9943-7daea4c0d0c1" />
+<br>
 3. Consultation du profil :
 - admin1 peut voir ses informations personnelles et son rôle d’administrateur :
 <img width="673" height="506" alt="image" src="https://github.com/user-attachments/assets/7b88a9f5-eaf5-4c4e-b7a5-5a1612e93f27" />
+<br>
 4. Ajout d’un nouveau cours : 
 - En tant qu’administrateur, admin1 peut ajouter de nouveaux cours en remplissant le formulaire dédié :
 <img width="983" height="665" alt="image" src="https://github.com/user-attachments/assets/62e3a7e2-dbc2-4b70-954b-a83a51aadb23" />
+<br>
 - Le nouveau cours apparaît ensuite dans la liste des cours disponibles :  
 <img width="1909" height="522" alt="image" src="https://github.com/user-attachments/assets/b54e0878-9b50-4118-98b2-ec4101b22139" />
 ---
-## ✅ Conclusion
+### ✅ Conclusion
 
 Ce projet permet de comprendre et d’appliquer les concepts fondamentaux
 de la sécurité des applications web modernes, notamment :
