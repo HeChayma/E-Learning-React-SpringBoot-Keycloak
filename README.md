@@ -43,9 +43,8 @@ Le projet repose sur une architecture **Front-End / Back-End sécurisée par Key
 6. Le Back-End vérifie le token et autorise l’accès selon le rôle de l’utilisateur
 
 📌 *Schéma global du projet* :
-<img width="526" height="264" alt="image" src="https://github.com/user-attachments/assets/1a268935-27cd-4812-9ccb-28a84c4b3e7c" />
-
 ---
+<img width="526" height="264" alt="image" src="https://github.com/user-attachments/assets/1a268935-27cd-4812-9ccb-28a84c4b3e7c" />
 
 ## 🔁 Flux d’authentification
 
